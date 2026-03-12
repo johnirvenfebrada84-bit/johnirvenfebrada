@@ -13,3 +13,6 @@ def get_student():
         "grade": 10,
         "section": "Zechariah"
     })
+
+if __name__ == '__main__':
+    app.run(debug=True)
