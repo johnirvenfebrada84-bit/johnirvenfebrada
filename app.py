@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 
@@ -15,5 +15,4 @@ def get_student():
     })
 
 if __name__ == "__main__":
-    app.run(debug=True)
-
+    app.run()
